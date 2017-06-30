@@ -14,6 +14,7 @@ public class QXApplication extends Application {
     public void onCreate() {
         super.onCreate();
         mContext=this;
+//        DaggerAppComponent.builder().qxCommonModleFactory(new QxCommonModleFactory(this)).build();
     }
     public static Context getAppContext(){
         return mContext;

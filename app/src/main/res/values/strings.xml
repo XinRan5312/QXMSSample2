@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">QXMJSStudyOne</string>
+    <string name="app_name">QXWR</string>
+    <string name="test_butterknife">test_butterknife</string>
+
+    <string name="hello_world">Hello world!</string>
+
 </resources>
