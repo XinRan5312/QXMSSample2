@@ -64,8 +64,8 @@ public class CicleTextView extends View {
         } else {
             bitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.ms_sl_msg_normal);
         }
-        //这都是相对于父布局(0,0)点的位置
-        RectF rectF = new RectF(dip2px(0), dip2px(28), dip2px(24), dip2px(52));
+        //这些点的坐标都是相对于自己父布局(0,0)的位置
+        RectF rectF = new RectF(dip2px(0), dip2px(6), dip2px(24), dip2px(30));
         canvas.drawBitmap(bitmap, null, rectF, mBitmapPaint);
     }
 
@@ -73,12 +73,10 @@ public class CicleTextView extends View {
         if (!TextUtils.isEmpty(mMsgCount)) {
             RectF rectF1 = null;
             if (mIsCicle) {
-                //这都是相对于父布局(0,0)点的位置
-                rectF1 = new RectF(dip2px(22), dip2px(22), dip2px(36), dip2px(36));
+                rectF1 = new RectF(dip2px(17), dip2px(0), dip2px(31), dip2px(14));
                 canvas.drawArc(rectF1, 0, 360, true, mCiclePaint);
             } else {
-                //这都是相对于父布局(0,0)点的位置
-                rectF1 = new RectF(dip2px(21), dip2px(22), dip2px(40), dip2px(36));
+                rectF1 = new RectF(dip2px(16), dip2px(0), dip2px(34), dip2px(14));
                 canvas.drawRoundRect(rectF1,dip2px(5),dip2px(5),mCiclePaint);
             }
         }
@@ -86,11 +84,10 @@ public class CicleTextView extends View {
 
     private void drawCount(Canvas canvas) {
         if (!TextUtils.isEmpty(mMsgCount)) {
-            if (mIsCicle) {//有可能不一样 一样是巧合 先这么分开写
-                //这都是相对于父布局(0,0)点的位置
-                canvas.drawText(mMsgCount, dip2px(24), dip2px(33), mTextPaint);
+            if (mIsCicle) {
+                canvas.drawText(mMsgCount, dip2px(19), dip2px(10), mTextPaint);
             }else{
-                canvas.drawText(mMsgCount, dip2px(24), dip2px(32), mTextPaint);
+                canvas.drawText(mMsgCount, dip2px(18), dip2px(10), mTextPaint);
             }
         }
     }
