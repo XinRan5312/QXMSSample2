@@ -22,4 +22,6 @@
     <color name="ui_defaultButtonColor">#0099FF</color>
     <color name="ui_pressedButtonColor">#0066CC</color>
     <color name="transparent_background">#0000</color>
+    <color name="app_main_theme_color">#FF6600</color>
+
 </resources>

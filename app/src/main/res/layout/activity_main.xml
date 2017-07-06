@@ -1,21 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <LinearLayout
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content">
 
         <TextView
             android:id="@+id/tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Hello World!"/>
-        <com.ran.qxmjsstudyone.views.CicleTextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
+        <!--<com.ran.qxmjsstudyone.views.CicleTextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+        <View
+            android:layout_below="@id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/shape_my_band_card_bg"/>
+        <LinearLayout
+            android:id="@+id/triangle"
+            android:layout_below="@id/tv"
+            android:layout_marginTop="140dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.ran.qxmjsstudyone.views.TriangleView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/hint"
+            android:layout_below="@id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:gravity="center"
+            android:textColor="#666666"
+            android:text="投资我们就是牛奔"/>
+        <TextView
+            android:id="@+id/cash_hint"
+            android:layout_below="@id/hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:gravity="center"
+            android:textColor="#666666"
+            android:text="借款金额 (元)"/>
+        <TextView
+            android:id="@+id/cash"
+            android:layout_below="@+id/cash_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textColor="@color/app_main_theme_color"
+            android:text="20000"/>
 
-</android.support.constraint.ConstraintLayout>
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cash_hint"
+            android:progress="50"
+            android:layout_marginTop="40dp"
+            android:max="100"
+            android:maxHeight="2dp"
+            android:progressDrawable="@drawable/progressbar_style_bg"
+            android:thumb="@mipmap/ms_sl_msg_pressed" />
+        <RelativeLayout
+            android:id="@+id/min_and_max_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/seekBar"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp">
+            <TextView
+                android:id="@+id/min_cash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#333333"
+                android:layout_alignParentLeft="true"
+                android:text="100"/>
+            <TextView
+                android:id="@+id/max_cash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#333333"
+                android:layout_alignParentRight="true"
+                android:text="100"/>
+
+        </RelativeLayout>
+        <com.ran.qxmjsstudyone.views.ScrollSelectorView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/min_and_max_container" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
