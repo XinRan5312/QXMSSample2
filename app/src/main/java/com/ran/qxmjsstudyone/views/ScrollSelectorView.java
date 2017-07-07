@@ -34,6 +34,7 @@ public class ScrollSelectorView extends View {
     private float mDownX;
     private int normalTextW;
     private int normalTextH;
+    private Paint mSmallPaint;
 
     public ScrollSelectorView(Context context) {
         this(context, null);
@@ -129,6 +130,7 @@ public class ScrollSelectorView extends View {
                 canvas.drawText(mSouce.get(i), (i - mSelectedItem) * mItemWith + mViewWith / 2 - normalTextW / 2 + mOffset,
                         mViewHeight / 2 + normalTextH / 2, mNormalPaint);
             }
+
         }
 
         String selectedText = mSouce.get(mSelectedItem);
@@ -136,7 +138,16 @@ public class ScrollSelectorView extends View {
         int selectedTextW = mRect.width();
         int selectedTextH = mRect.height();
         canvas.drawText(selectedText, mViewWith / 2 - selectedTextW / 2 + mOffset, mViewHeight / 2 + selectedTextH / 2, mSelectedPaint);
-
+//        if(mSelectedItem>=2&&mSelectedItem<=mSouce.size()-2){
+//            canvas.drawText(mSouce.get(mSelectedItem+1), mSelectedItem * mItemWith + mViewWith / 2 - normalTextW / 2 + mOffset,
+//                    mViewHeight / 2 + normalTextH / 2, mNormalPaint);
+//            canvas.drawText(mSouce.get(mSelectedItem-1), (-mSelectedItem) * mItemWith + mViewWith / 2 - normalTextW / 2 + mOffset,
+//                    mViewHeight / 2 + normalTextH / 2, mNormalPaint);
+//            canvas.drawText(mSouce.get(mSelectedItem+2), 2*mSelectedItem * (mItemWith+dip2px(8)) + mViewWith / 2 - normalTextW / 2 + mOffset,
+//                    mViewHeight / 2 + normalTextH / 2, mSmallPaint);
+//            canvas.drawText(mSouce.get(mSelectedItem-2), (-2)*mSelectedItem * (mItemWith+dip2px(8))  + mViewWith / 2 - normalTextW / 2 + mOffset,
+//                    mViewHeight / 2 + normalTextH / 2, mSmallPaint);
+//        }
     }
 
     private void init() {
@@ -151,9 +162,13 @@ public class ScrollSelectorView extends View {
         mNormalPaint.setColor(Color.BLACK);
         mNormalPaint.setTextSize(dip2px(12));
 
-        mSelectedPaint = new Paint();
+        mSelectedPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         mSelectedPaint.setColor(Color.RED);
         mSelectedPaint.setTextSize(dip2px(21));
+
+        mSmallPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
+        mSmallPaint.setColor(Color.GRAY);
+        mSmallPaint.setTextSize(dip2px(7));
     }
 
     private int dip2px(float dpValue) {

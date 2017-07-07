@@ -5,6 +5,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
+import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
@@ -23,6 +24,8 @@ public class TriangleView extends View {
     private Paint mRedPaint;
     private Paint mTextPaint;
     private int mHeight;
+    private int mSpace;
+    private String mText;
 
     public TriangleView(Context context) {
         super(context);
@@ -61,14 +64,20 @@ public class TriangleView extends View {
 
     private void drawRedTriangle(Canvas canvas) {
         Path path=new Path();
-        path.moveTo(dip2px(50),mHeight-dip2px(8));
-        path.lineTo(mScreenWith/2,dip2px(8));
-        path.lineTo(mScreenWith-dip2px(50),mHeight-dip2px(8));
+        double a=mSpace*mSpace;
+        double b=mScreenWith*mScreenWith;
+        double c=mHeight*mHeight;
+        int x= (int) ((mSpace*mScreenWith)/(2*mHeight)+Math.sqrt(a+a*b/(4*c)));
+        path.moveTo(x,mHeight-mSpace);
+        path.lineTo(mScreenWith/2,mSpace);
+        path.lineTo(mScreenWith-x,mHeight-mSpace);
         path.close();
         canvas.drawPath(path,mRedPaint);
     }
     private void drawTexts(Canvas canvas) {
-        canvas.drawText("你们好啊",mScreenWith/2-dip2px(28),dip2px(30),mTextPaint);
+        Rect rect=new Rect();
+        mTextPaint.getTextBounds(mText,0,mText.length(),rect);
+        canvas.drawText(mText,mScreenWith/2-rect.width()/2,mHeight/2+rect.height(),mTextPaint);
     }
     private void getScreenWith(){
         WindowManager wm = (WindowManager) getContext()
@@ -82,7 +91,9 @@ public class TriangleView extends View {
     }
     private void initPaint() {
         getScreenWith();
-        mHeight=dip2px(50);
+        mHeight=dip2px(100);
+        mSpace=dip2px(20);
+        mText="广州小贷";
         mWhitPaint = new Paint();
         mWhitPaint.setColor(Color.WHITE);
         mWhitPaint.setStrokeWidth(2f);
