@@ -32,6 +32,8 @@ public class ScrollSelectorView extends View {
     private int mSelectedItem;
     private Rect mRect = new Rect();
     private float mDownX;
+    private int normalTextW;
+    private int normalTextH;
 
     public ScrollSelectorView(Context context) {
         this(context, null);
@@ -110,8 +112,6 @@ public class ScrollSelectorView extends View {
     }
 
     private void drawTexts(Canvas canvas) {
-        int normalTextW = 0;
-        int normalTextH = 0;
 
         if (mSelectedItem > 0 && mSelectedItem < mSouce.size() - 1) {
             String beforeText = mSouce.get(mSelectedItem - 1);
