@@ -6,14 +6,12 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
-import android.graphics.Typeface;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by houqixin on 2017/7/6.
@@ -32,8 +30,10 @@ public class ScrollSelectorView extends View {
     private int mSelectedItem;
     private Rect mRect = new Rect();
     private float mDownX;
-    private int normalTextW;
-    private int normalTextH;
+    private int mNormalTextW;
+    private int mNormalTextH;
+    private int mSmallTextW;
+    private int mSmallTextH;
     private Paint mSmallPaint;
 
     public ScrollSelectorView(Context context) {
@@ -121,16 +121,50 @@ public class ScrollSelectorView extends View {
             int w1 = mRect.width();
             mNormalPaint.getTextBounds(afterText, 0, afterText.length(), mRect);
             int w2 = mRect.width();
-            normalTextW = (w1 + w2) / 2;
-            normalTextH = mRect.height();
+            mNormalTextW = (w1 + w2) / 2;
+            mNormalTextH = mRect.height();
 
         }
-        for (int i = 0; i < mSouce.size() - 1; i++) {
-            if (normalTextH > 0 && i != mSelectedItem) {
-                canvas.drawText(mSouce.get(i), (i - mSelectedItem) * mItemWith + mViewWith / 2 - normalTextW / 2 + mOffset,
-                        mViewHeight / 2 + normalTextH / 2, mNormalPaint);
+
+        if (mSelectedItem == 0 || mSelectedItem == 1) {
+            for (int i = 0; i < mSouce.size() - 1; i++) {
+                if (mNormalTextH > 0 && i != mSelectedItem &&
+                        i != mSelectedItem + 2) {
+                    canvas.drawText(mSouce.get(i), (i - mSelectedItem) * mItemWith + mViewWith / 2 - mNormalTextW / 2 + mOffset,
+                            mViewHeight / 2 + mNormalTextH / 2, mNormalPaint);
+                }
+
+            }
+            int n = mSelectedItem + 2;
+            canvas.drawText(mSouce.get(n), (n - mSelectedItem) * mItemWith + mViewWith / 2 - mNormalTextW / 2 + mOffset,
+                    mViewHeight / 2 + mNormalTextH / 2, mSmallPaint);
+        } else if (mSelectedItem == mSouce.size() - 1 || mSelectedItem == mSouce.size() - 2) {
+            for (int i = 0; i < mSouce.size() - 1; i++) {
+                if (mNormalTextH > 0 && i != mSelectedItem && i != mSelectedItem - 2) {
+                    canvas.drawText(mSouce.get(i), (i - mSelectedItem) * mItemWith + mViewWith / 2 - mNormalTextW / 2 + mOffset,
+                            mViewHeight / 2 + mNormalTextH / 2, mNormalPaint);
+                }
+
             }
 
+            int m = mSelectedItem - 2;
+            canvas.drawText(mSouce.get(m), (m - mSelectedItem) * mItemWith + mViewWith / 2 - mNormalTextW / 2 + mOffset,
+                    mViewHeight / 2 + mNormalTextH / 2, mSmallPaint);
+        } else {
+            for (int i = 0; i < mSouce.size() - 1; i++) {
+                if (mNormalTextH > 0 && i != mSelectedItem && i != mSelectedItem - 2 &&
+                        i != mSelectedItem + 2) {
+                    canvas.drawText(mSouce.get(i), (i - mSelectedItem) * mItemWith + mViewWith / 2 - mNormalTextW / 2 + mOffset,
+                            mViewHeight / 2 + mNormalTextH / 2, mNormalPaint);
+                }
+
+            }
+            int n = mSelectedItem + 2;
+            int m = mSelectedItem - 2;
+            canvas.drawText(mSouce.get(n), (n - mSelectedItem) * mItemWith + mViewWith / 2 - mNormalTextW / 2 + mOffset,
+                    mViewHeight / 2 + mNormalTextH / 2, mSmallPaint);
+            canvas.drawText(mSouce.get(m), (m - mSelectedItem) * mItemWith + mViewWith / 2 - mNormalTextW / 2 + mOffset,
+                    mViewHeight / 2 + mNormalTextH / 2, mSmallPaint);
         }
 
         String selectedText = mSouce.get(mSelectedItem);
@@ -138,43 +172,36 @@ public class ScrollSelectorView extends View {
         int selectedTextW = mRect.width();
         int selectedTextH = mRect.height();
         canvas.drawText(selectedText, mViewWith / 2 - selectedTextW / 2 + mOffset, mViewHeight / 2 + selectedTextH / 2, mSelectedPaint);
-//        if(mSelectedItem>=2&&mSelectedItem<=mSouce.size()-2){
-//            canvas.drawText(mSouce.get(mSelectedItem+1), mSelectedItem * mItemWith + mViewWith / 2 - normalTextW / 2 + mOffset,
-//                    mViewHeight / 2 + normalTextH / 2, mNormalPaint);
-//            canvas.drawText(mSouce.get(mSelectedItem-1), (-mSelectedItem) * mItemWith + mViewWith / 2 - normalTextW / 2 + mOffset,
-//                    mViewHeight / 2 + normalTextH / 2, mNormalPaint);
-//            canvas.drawText(mSouce.get(mSelectedItem+2), 2*mSelectedItem * (mItemWith+dip2px(8)) + mViewWith / 2 - normalTextW / 2 + mOffset,
-//                    mViewHeight / 2 + normalTextH / 2, mSmallPaint);
-//            canvas.drawText(mSouce.get(mSelectedItem-2), (-2)*mSelectedItem * (mItemWith+dip2px(8))  + mViewWith / 2 - normalTextW / 2 + mOffset,
-//                    mViewHeight / 2 + normalTextH / 2, mSmallPaint);
-//        }
+
+
     }
 
     private void init() {
         setWillNotDraw(false);
         setClickable(true);
         mVisibleItems = 5;
-        for(int i=0;i<12;i++){
-            mSouce.add(i,""+i+"期");
+        for (int i = 0; i < 12; i++) {
+            mSouce.add(i, "" + i + "期");
         }
-        mSelectedItem=mSouce.size()/2;
+        mSelectedItem = mSouce.size() / 2;
         mNormalPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         mNormalPaint.setColor(Color.BLACK);
-        mNormalPaint.setTextSize(dip2px(12));
+        mNormalPaint.setTextSize(dip2px(18));
 
         mSelectedPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         mSelectedPaint.setColor(Color.RED);
-        mSelectedPaint.setTextSize(dip2px(21));
+        mSelectedPaint.setTextSize(dip2px(26));
 
         mSmallPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         mSmallPaint.setColor(Color.GRAY);
-        mSmallPaint.setTextSize(dip2px(7));
+        mSmallPaint.setTextSize(dip2px(12));
     }
 
     private int dip2px(float dpValue) {
         final float scale = getResources().getDisplayMetrics().density;
         return (int) (dpValue * scale + 0.5f);
     }
+
     /**
      * 改变中间可见文字的数目
      *
