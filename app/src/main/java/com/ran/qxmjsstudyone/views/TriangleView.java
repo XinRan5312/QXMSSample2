@@ -9,12 +9,11 @@ import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
-import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.WindowManager;
 
 /**
- * Created by houqixin on 2017/7/6.
+ * Created by houqixin on 2017/7/12.
  */
 
 public class TriangleView extends View {
@@ -43,6 +42,13 @@ public class TriangleView extends View {
     }
 
     @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+
+        setMeasuredDimension(mScreenWith,mHeight);
+
+    }
+
+    @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
@@ -67,7 +73,7 @@ public class TriangleView extends View {
         double a=mSpace*mSpace;
         double b=mScreenWith*mScreenWith;
         double c=mHeight*mHeight;
-        int x= (int) ((mSpace*mScreenWith)/(2*mHeight)+Math.sqrt(a+a*b/(4*c)));
+        int x= (int) ((mSpace*mScreenWith)/(2*mHeight)+ Math.sqrt(a+a*b/(4*c)));
         path.moveTo(x,mHeight-mSpace);
         path.lineTo(mScreenWith/2,mSpace);
         path.lineTo(mScreenWith-x,mHeight-mSpace);
@@ -77,12 +83,13 @@ public class TriangleView extends View {
     private void drawTexts(Canvas canvas) {
         Rect rect=new Rect();
         mTextPaint.getTextBounds(mText,0,mText.length(),rect);
-        canvas.drawText(mText,mScreenWith/2-rect.width()/2,mHeight/2+rect.height(),mTextPaint);
+        canvas.drawText(mText,mScreenWith/2-rect.width()/2,mHeight/2+rect.height()/2,mTextPaint);
     }
     private void getScreenWith(){
         WindowManager wm = (WindowManager) getContext()
                 .getSystemService(Context.WINDOW_SERVICE);
         mScreenWith = wm.getDefaultDisplay().getWidth();
+        mHeight=mScreenWith/5;
 
     }
     private int dip2px(float dpValue) {
@@ -91,8 +98,7 @@ public class TriangleView extends View {
     }
     private void initPaint() {
         getScreenWith();
-        mHeight=dip2px(100);
-        mSpace=dip2px(20);
+        mSpace=dip2px(8);
         mText="广州小贷";
         mWhitPaint = new Paint();
         mWhitPaint.setColor(Color.WHITE);

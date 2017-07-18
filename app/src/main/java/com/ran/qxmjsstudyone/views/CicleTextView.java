@@ -7,6 +7,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
+import android.graphics.Rect;
 import android.graphics.RectF;
 import android.graphics.Typeface;
 import android.graphics.drawable.shapes.PathShape;
@@ -47,6 +48,11 @@ public class CicleTextView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+        if (!TextUtils.isEmpty(mMsgCount) && mMsgCount.contains("+")) {
+            mIsCicle = false;
+        } else {
+            mIsCicle = true;
+        }
         drawBitMap(canvas);
         drawCicle(canvas);
         drawCount(canvas);
@@ -81,11 +87,12 @@ public class CicleTextView extends View {
             }
         }
     }
-
     private void drawCount(Canvas canvas) {
         if (!TextUtils.isEmpty(mMsgCount)) {
             if (mIsCicle) {
-                canvas.drawText(mMsgCount, dip2px(19), dip2px(10), mTextPaint);
+                Rect rect=new Rect();
+                mTextPaint.getTextBounds(mMsgCount,0,mMsgCount.length(),rect);
+                canvas.drawText(mMsgCount, dip2px(23)-rect.width()/2, dip2px(10), mTextPaint);
             }else{
                 canvas.drawText(mMsgCount, dip2px(18), dip2px(10), mTextPaint);
             }
@@ -94,8 +101,8 @@ public class CicleTextView extends View {
 
     private void initPaint() {
         mIsSelected = false;
-        mIsCicle = false;
-        mMsgCount = "10+";
+        mIsCicle = true;
+        mMsgCount = "99";
         mBitmapPaint = new Paint();
         mBitmapPaint = new Paint();
         mBitmapPaint.setColor(Color.parseColor("#CBCADD"));
@@ -121,12 +128,14 @@ public class CicleTextView extends View {
     }
 
     public void setmMsgCount(String mMsgCount) {
-        this.mMsgCount = mMsgCount;
-        invalidate();
-    }
-
-    public void setIsCicle(boolean mIsCicle) {
-        this.mIsCicle = mIsCicle;
+        int count = Integer.parseInt(mMsgCount);
+        if (count == 0 || count < 0) {
+            this.mMsgCount = null;
+        } else if(count>99){
+            this.mMsgCount = "99+";
+        }else{
+            this.mMsgCount=mMsgCount;
+        }
         invalidate();
     }
 }

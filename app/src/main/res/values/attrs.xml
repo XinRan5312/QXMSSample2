@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="switchbutton">
+        <attr name="btn_height" format="reference|dimension" />
+        <attr name="btn_width" format="reference|dimension" />
+    </declare-styleable>
+    <declare-styleable name="MSCircleImageView">
+        <attr name="borderRadius" format="dimension" />
+        <attr name="type">
+            <enum name="circle" value="0" />
+            <enum name="round" value="1" />
+        </attr>
+        <attr name="src" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="MSSettingView">
+        <attr name="text" format="string" />
+        <attr name="textSize" format="reference|dimension" />
+        <attr name="textColor" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="MSGestureLockView">
+        <attr name="strokeWidth" format="reference|dimension" />
+        <attr name="rowCount" format="integer" />
+        <attr name="outterRadius" format="reference|dimension" />
+        <attr name="internalRadius" format="reference|dimension" />
+        <attr name="defaultColor" format="reference|color" />
+        <attr name="successColor" format="reference|color" />
+        <attr name="errorColor" format="reference|color" />
+        <attr name="backGround" format="reference|color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="MSDotView">
+        <attr name="radius" format="reference|dimension" />
+        <attr name="isSolid" format="reference|boolean" />
+        <attr name="stroke" format="reference|dimension" />
+        <attr name="fillColor" format="reference|color" />
+        <attr name="strokeColor" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="MSHeightRatioWidthImg">
+        <attr name="height_ratio_with" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="QXChartLineRato">
+        <attr name="height_ratio_with_chart" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="RectangleAddView">
+        <attr name="isAdd" format="reference|boolean" />
+    </declare-styleable>
+</resources>

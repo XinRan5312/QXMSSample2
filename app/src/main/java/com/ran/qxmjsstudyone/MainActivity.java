@@ -4,16 +4,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.SeekBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.ran.qxmjsstudyone.base.BaseActvity;
+import com.ran.qxmjsstudyone.views.ReScrollSelectorView;
+import com.ran.qxmjsstudyone.views.ScrollSelectorView;
+import com.ran.qxmjsstudyone.views.TriangleView;
 
 import butterknife.BindView;
-import butterknife.OnClick;
+import butterknife.ButterKnife;
 
 public class MainActivity extends BaseActvity {
-    @BindView(R.id.tv)
-    TextView mToasTv;
     @BindView(R.id.hint)
     TextView hint;
     @BindView(R.id.cash_hint)
@@ -28,11 +28,16 @@ public class MainActivity extends BaseActvity {
     TextView maxCash;
     int min = 100;
     int max = 5000;
+    @BindView(R.id.triangle)
+    TriangleView triangle;
+//    @BindView(R.id.scrollSelectorView)
+//    ReScrollSelectorView scrollSelectorView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
         initData();
         initListener();
     }
@@ -48,9 +53,11 @@ public class MainActivity extends BaseActvity {
         minCash.setText("" + min);
         maxCash.setText("" + max);
         cash.setVisibility(View.GONE);
+
     }
 
     private void initListener() {
+        triangle.setVisibility(View.GONE);
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean b) {
@@ -81,11 +88,4 @@ public class MainActivity extends BaseActvity {
         }
     }
 
-    @OnClick(R.id.tv)
-    public void viewsOnClick(View view) {
-        if (view.getId() == R.id.tv) {
-
-            Toast.makeText(MainActivity.this, "hello butterKnife", Toast.LENGTH_LONG).show();
-        }
-    }
 }
