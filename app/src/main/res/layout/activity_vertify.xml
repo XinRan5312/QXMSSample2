@@ -4,9 +4,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.ran.qxmjsstudyone.views.RectangleAddView
+    <com.ran.qxmjsstudyone.views.VerticalCircleView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"/>
 
 
 </LinearLayout>

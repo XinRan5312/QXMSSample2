@@ -10,6 +10,7 @@ import android.text.method.LinkMovementMethod;
 import android.text.style.AbsoluteSizeSpan;
 import android.text.style.ClickableSpan;
 import android.text.style.ForegroundColorSpan;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -70,11 +71,12 @@ public class TextColorUtil {
         spannableString.setSpan(colorSpan, 0, spannableString.length(), Spanned.SPAN_INCLUSIVE_EXCLUSIVE);
         return spannableString;
     }
+
     /**
      * 自定义字体大小，有链接的
      */
     public void setTextWithSizeAndLink(int textSize) {
-        if (stringBuilder.length() > 0&&textSize>6) {
+        if (stringBuilder.length() > 0 && textSize > 6) {
 
             stringBuilder.setSpan(new AbsoluteSizeSpan(textSize, true), 0, stringBuilder.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
 
@@ -84,6 +86,7 @@ public class TextColorUtil {
         }
 
     }
+
     /**
      * 代表是默认字体大小，无链接的
      */
@@ -114,4 +117,20 @@ public class TextColorUtil {
     public interface SpanStringOnClickListener {
         void onSpanURLClick(String title);
     }
+
+    /**
+     * 已知透明度百分比，返回对应的16进制
+     * @param per 透明度百分比，比如20%对应传入0.2
+     * @return 返回透明度对应的16进制
+     * @throws Exception
+     */
+    public String rgba(double per) throws Exception {
+        per = Math.round(per * 100) / 100.0d;
+        int alpha = (int) Math.round(per * 255);
+        String hex = Integer.toHexString(alpha).toUpperCase();//转换成16进制
+        if (hex.length() == 1) hex = "0" + hex;
+        Log.e("percent:",+per*100+"16进制:"+hex);
+        return hex;
+    }
+
 }
