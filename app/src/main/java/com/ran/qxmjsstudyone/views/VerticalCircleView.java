@@ -3,12 +3,19 @@ package com.ran.qxmjsstudyone.views;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.DashPathEffect;
 import android.graphics.Paint;
 import android.graphics.Path;
+import android.graphics.PathEffect;
+import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
+
+import com.ran.qxmjsstudyone.bean.VerticalCircleParams;
+
+import java.util.HashMap;
 
 /**
  * Created by houqixin on 2017/7/18.
@@ -26,6 +33,13 @@ public class VerticalCircleView extends View {
     private int mLineLength;
     private int mFirstCirleX;
     private int mFirstCirleY;
+    private int mLineDashGap;
+    private HashMap<Integer, VerticalCircleParams> mapCount;
+
+    public void setMapCount(HashMap<Integer, VerticalCircleParams> mapCount) {
+        this.mapCount = mapCount;
+        invalidate();
+    }
 
     public VerticalCircleView(Context context) {
         super(context);
@@ -60,15 +74,35 @@ public class VerticalCircleView extends View {
     }
 
     private void drawNumCircle(Canvas canvas, int num) {
+//        VerticalCircleParams params = null;
+//        if (mapCount.containsKey(num)) {
+//            params = mapCount.get(num);
+//        }
         canvas.drawCircle(mFirstCirleX, mFirstCirleY + mItemHeigt * (num - 1), mRadius, mCiclePaint);
         float y1 = mFirstCirleY + mItemHeigt * (num - 1);
-        Path path = new Path();
 
-        path.moveTo(mFirstCirleX, y1);
-        path.lineTo(mFirstCirleX - 1 * mRadius / 5, y1 + 1 * mRadius / 3 + dip2px(3));
-        path.lineTo(mFirstCirleX + 2 * mRadius / 3, y1 - 2 * mRadius / 3 + dip2px(5));
-        path.close();
-        canvas.drawPath(path, mLinePaint);
+        //画对号
+//        Path path = new Path();
+//
+//        path.moveTo(mFirstCirleX-2*mRadius/3, y1);
+//        path.lineTo(mFirstCirleX - 1 * mRadius / 5, y1 + 1 * mRadius / 3 + dip2px(3));
+//        path.lineTo(mFirstCirleX + 2 * mRadius / 3, y1 - 2 * mRadius / 3 + dip2px(5));
+//        canvas.drawPath(path, mCiclePaint);
+
+        //画文字
+        Rect rect = new Rect();
+        String text = "逾期";
+        mTextPaint.getTextBounds(text, 0, text.length(), rect);
+        canvas.drawText(text, mFirstCirleX - rect.width() / 2, y1 + rect.height() / 2, mTextPaint);
+
+        //画竖线
+        if (num < mItemCount) {//画mItemCount-1个竖线就好了
+            float y2 = y1 + mRadius;
+            Path path = new Path();
+            path.moveTo(mFirstCirleX, y2);
+            path.lineTo(mFirstCirleX, y2 + mLineLength);
+            canvas.drawPath(path, mLinePaint);
+        }
     }
 
     private void init() {
@@ -77,8 +111,9 @@ public class VerticalCircleView extends View {
         mWith = dip2px(26);
         mRadius = dip2px(12);
         mLineLength = mItemHeigt - mRadius * 2;
-        mFirstCirleX = dip2px(12);
-        mFirstCirleY = dip2px(32);
+        mFirstCirleX = dip2px(13);
+        mFirstCirleY = dip2px(33);
+        mLineDashGap = dip2px(8);
 
         mCiclePaint = new Paint();
         mCiclePaint.setColor(Color.RED);
@@ -95,9 +130,20 @@ public class VerticalCircleView extends View {
         mCicleFillPaint.setDither(true);
 
         mTextPaint = new Paint();
-        mTextPaint.setColor(Color.WHITE);
-        mTextPaint.setTextSize(dip2px(10));
+        mTextPaint.setColor(Color.RED);
+        mTextPaint.setTextSize(dip2px(9));
         mTextPaint.setTypeface(Typeface.DEFAULT);
+
+
+        mLinePaint = new Paint();
+        mLinePaint.setColor(Color.RED);
+        mLinePaint.setStrokeWidth(3f);
+        mLinePaint.setStyle(Paint.Style.STROKE);
+        mLinePaint.setAntiAlias(true);
+        mLinePaint.setDither(true);
+        PathEffect effects = new DashPathEffect(new float[]{mLineDashGap, mLineDashGap, mLineDashGap, mLineDashGap}, 0);
+        mLinePaint.setPathEffect(effects);
+
 
     }
 
