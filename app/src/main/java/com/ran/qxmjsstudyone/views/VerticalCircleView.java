@@ -39,6 +39,11 @@ public class VerticalCircleView extends View {
 
     public void setMapCount(HashMap<Integer, VerticalCircleParams> mapCount) {
         this.mapCount = mapCount;
+        if (mapCount != null && !mapCount.isEmpty()) {
+            mItemCount = mapCount.size();
+        }else{
+            mItemCount=7;
+        }
         invalidate();
     }
 
@@ -57,12 +62,6 @@ public class VerticalCircleView extends View {
         init();
     }
 
-    @Override
-    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-
-        setMeasuredDimension(mWith, mItemHeigt * mItemCount);
-
-    }
 
     @Override
     protected void onDraw(Canvas canvas) {
@@ -75,32 +74,37 @@ public class VerticalCircleView extends View {
     }
 
     private void drawNumCircle(Canvas canvas, int num) {
-//        VerticalCircleParams params = null;
-//        if (mapCount.containsKey(num)) {
-//            params = mapCount.get(num);
-//        }
-        //画文字
         float y1 = mFirstCirleY + mItemHeigt * (num - 1);
-        if (num <3) {
-            canvas.drawCircle(mFirstCirleX, mFirstCirleY + mItemHeigt * (num - 1), mRadius, mCiclePaint);
-            //画对号
-            Path path = new Path();
+        if (mapCount != null && !mapCount.isEmpty()) {
+            VerticalCircleParams params = null;
+            if (mapCount.containsKey(num)) {
+                params = mapCount.get(num);
+            }
+            if (params != null) {
+                if (params.isOverdue) {
+                    canvas.drawCircle(mFirstCirleX, mFirstCirleY + mItemHeigt * (num - 1), mRadius, mCicleFillPaint);
+                    Rect rect = new Rect();
+                    String text = "逾期";
+                    mTextPaint.getTextBounds(text, 0, text.length(), rect);
+                    canvas.drawText(text, mFirstCirleX - rect.width() / 2, y1 + rect.height() / 2, mTextPaint);
+                } else if (params.isFinish) {
+                    canvas.drawCircle(mFirstCirleX, mFirstCirleY + mItemHeigt * (num - 1), mRadius, mCiclePaint);
+                    Path path = new Path();
 
-            path.moveTo(mFirstCirleX - 2 * mRadius / 3, y1);
-            path.lineTo(mFirstCirleX - 1 * mRadius / 5, y1 + 1 * mRadius / 3 + dip2px(3));
-            path.lineTo(mFirstCirleX + 2 * mRadius / 3, y1 - 2 * mRadius / 3 + dip2px(5));
-            canvas.drawPath(path, mCiclePaint);
-
-        }else if(num==3){//提示逾期了
-            canvas.drawCircle(mFirstCirleX, mFirstCirleY + mItemHeigt * (num - 1), mRadius, mCicleFillPaint);
-            Rect rect = new Rect();
-            String text = "逾期";
-            mTextPaint.getTextBounds(text, 0, text.length(), rect);
-            canvas.drawText(text, mFirstCirleX - rect.width() / 2, y1 + rect.height() / 2, mTextPaint);
-        }else{
+                    path.moveTo(mFirstCirleX - 2 * mRadius / 3, y1);
+                    path.lineTo(mFirstCirleX - 1 * mRadius / 5, y1 + 1 * mRadius / 3 + dip2px(3));
+                    path.lineTo(mFirstCirleX + 2 * mRadius / 3, y1 - 2 * mRadius / 3 + dip2px(5));
+                    canvas.drawPath(path, mCiclePaint);
+                } else {
+                    canvas.drawCircle(mFirstCirleX, mFirstCirleY + mItemHeigt * (num - 1), mRadius, mCiclePaint);
+                }
+            } else {
+                canvas.drawCircle(mFirstCirleX, mFirstCirleY + mItemHeigt * (num - 1), mRadius, mCiclePaint);
+            }
+        } else {
             canvas.drawCircle(mFirstCirleX, mFirstCirleY + mItemHeigt * (num - 1), mRadius, mCiclePaint);
+
         }
-
         //画竖线
         if (num < mItemCount) {//画mItemCount-1个竖线就好了
             float y2 = y1 + mRadius;
@@ -109,6 +113,7 @@ public class VerticalCircleView extends View {
             path1.lineTo(mFirstCirleX, y2 + mLineLength);
             canvas.drawPath(path1, mLinePaint);
         }
+
     }
 
     private void init() {

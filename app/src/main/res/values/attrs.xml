@@ -51,4 +51,7 @@
     <declare-styleable name="RectangleAddView">
         <attr name="isAdd" format="reference|boolean" />
     </declare-styleable>
+    <declare-styleable name="CardAndPhoneEditText">
+        <attr name="typeCard" format="string" />
+    </declare-styleable>
 </resources>

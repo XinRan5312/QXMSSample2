@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+    <TextView
+        android:id="@+id/repay_recode_status_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textSize="10dp"
+        android:textColor="#FF6600"
+        android:text="逾期还款"
+        android:gravity="center"
+        android:background="@drawable/shape_repay_code_bg"
+        android:layout_marginRight="16dp"/>
+    <com.ran.qxmjsstudyone.views.CardAndPhoneEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="请输入注册手机号"
+        app:typeCard="id_card"
+        android:maxLength="10"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="448dp"
