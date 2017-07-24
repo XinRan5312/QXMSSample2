@@ -2,11 +2,16 @@ package com.ran.qxmjsstudyone.views;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.graphics.Canvas;
 import android.text.Editable;
 import android.text.InputType;
 import android.text.TextWatcher;
 import android.util.AttributeSet;
 import android.util.Log;
+import android.view.ActionMode;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.inputmethod.EditorInfo;
 
 import com.ran.qxmjsstudyone.R;
 
@@ -111,6 +116,49 @@ public class CardAndPhoneEditText extends android.support.v7.widget.AppCompatEdi
     public void setType(String type) {
         this.type = type;
         invalidate();
+    }
+    private boolean isFirstDraw = true;
+
+    @Override
+    protected void onDraw(Canvas canvas) {
+        super.onDraw(canvas);
+        if(isFirstDraw){
+            forbidCopyPaste();
+            isFirstDraw=false;
+        }
+    }
+
+    /**
+     * 不让Edittext可以复制 改变长安EditText后弹出的menu的样式 都可以在这里设置
+     */
+    private void forbidCopyPaste() {
+        if (this == null) {
+            return;
+        }
+        this.setLongClickable(false);
+        this.setCustomSelectionActionModeCallback(new ActionMode.Callback() {
+
+            @Override
+            public boolean onPrepareActionMode(ActionMode mode, Menu menu) {
+                return false;
+            }
+
+            @Override
+            public void onDestroyActionMode(ActionMode mode) {
+
+            }
+
+            @Override
+            public boolean onCreateActionMode(ActionMode mode, Menu menu) {
+                return false;
+            }
+
+            @Override
+            public boolean onActionItemClicked(ActionMode mode, MenuItem item) {
+                return false;
+            }
+        });
+        this.setImeOptions(EditorInfo.IME_FLAG_NO_EXTRACT_UI);
     }
 }
 
