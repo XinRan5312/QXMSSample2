@@ -1,6 +1,8 @@
 package com.ran.qxmjsstudyone.views;
 
 import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.DashPathEffect;
@@ -8,6 +10,7 @@ import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.PathEffect;
 import android.graphics.Rect;
+import android.graphics.RectF;
 import android.graphics.Typeface;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
@@ -105,6 +108,7 @@ public class VerticalCircleView extends View {
             canvas.drawCircle(mFirstCirleX, mFirstCirleY + mItemHeigt * (num - 1), mRadius, mCiclePaint);
 
         }
+
         //画竖线
         if (num < mItemCount) {//画mItemCount-1个竖线就好了
             float y2 = y1 + mRadius;
