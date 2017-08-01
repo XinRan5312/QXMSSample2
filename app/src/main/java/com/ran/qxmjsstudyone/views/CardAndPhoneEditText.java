@@ -128,6 +128,7 @@ public class CardAndPhoneEditText extends android.support.v7.widget.AppCompatEdi
         }
     }
 
+
     /**
      * 不让Edittext可以复制 改变长安EditText后弹出的menu的样式 都可以在这里设置
      */

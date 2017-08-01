@@ -24,4 +24,17 @@
     <color name="transparent_background">#0000</color>
     <color name="app_main_theme_color">#FF6600</color>
 
+    <!--TextView 相关 -->
+    <color name="text_color_999">#999999</color>
+    <color name="text_color_333">#333333</color>
+    <color name="text_color_ccc">#CCCCCC</color>
+    <color name="text_color_fff">#FFFFFF</color>
+    <color name="text_color_666">#666666</color>
+    <color name="text_color_red">#FF2020</color>
+    <color name="text_color_theme">#FF6600</color>
+    <color name="text_color_f5">#FFF5F5F5</color>
+    <color name="text_color_B9">#FFB9B9B9</color>
+    <color name="text_color_2A">#FF2A2A2A</color>
+    <color name="text_color_3E">#FF3E3E3E</color>
+
 </resources>
