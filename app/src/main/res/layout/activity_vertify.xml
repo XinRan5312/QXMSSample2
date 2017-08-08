@@ -16,12 +16,39 @@
         android:gravity="center"
         android:background="@drawable/shape_repay_code_bg"
         android:layout_marginRight="16dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <com.ran.qxmjsstudyone.views.CardAndPhoneEditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/ms_bind_card_input_style"
         android:hint="请输入注册手机号"
         app:typeCard="id_card"
+        android:digits="0123456789xX"
+        android:inputType="textCapCharacters"
         android:maxLength="10"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机号"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.ran.qxmjsstudyone.views.CardAndPhoneEditText
+            android:id="@+id/card_edit_view"
+            style="@style/ms_bind_card_input_style"
+            android:hint="请输入注册手机号"
+            app:typeCard="id_card"
+            android:digits="0123456789xX"
+            android:inputType="textCapCharacters"
+            android:maxLength="10"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机号"/>
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="448dp"
