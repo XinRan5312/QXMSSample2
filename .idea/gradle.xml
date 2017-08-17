@@ -5,10 +5,16 @@
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="E:/developer/android/new_version/gradle-2.10-all/gradle-2.10" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/UpdateAppUtils" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/mslogs" />
+            <option value="$PROJECT_DIR$/mspay" />
+            <option value="$PROJECT_DIR$/msreactive" />
+            <option value="$PROJECT_DIR$/msutils" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

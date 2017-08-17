@@ -3,7 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/QXMSSample2.iml" filepath="$PROJECT_DIR$/QXMSSample2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UpdateAppUtils/UpdateAppUtils.iml" filepath="$PROJECT_DIR$/UpdateAppUtils/UpdateAppUtils.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mslogs/mslogs.iml" filepath="$PROJECT_DIR$/mslogs/mslogs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mspay/mspay.iml" filepath="$PROJECT_DIR$/mspay/mspay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msreactive/msreactive.iml" filepath="$PROJECT_DIR$/msreactive/msreactive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msutils/msutils.iml" filepath="$PROJECT_DIR$/msutils/msutils.iml" />
     </modules>
   </component>
 </project>

@@ -4,12 +4,18 @@ import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.DatePicker;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.ran.qxmjsstudyone.base.BaseActvity;
+import com.ran.qxmjsstudyone.views.BaseSeletorPopupWindow;
+import com.ran.qxmjsstudyone.views.SwitchButton;
 
 import java.util.Calendar;
 
@@ -28,6 +34,12 @@ public class InsuranceActvity extends BaseActvity {
     TextView dateDisplay;
     int mYear, mMonth, mDay;
     final int DATE_DIALOG = 1;
+    @BindView(R.id.recycler_item_sb)
+    SwitchButton recyclerItemSb;
+    @BindView(R.id.popup_button)
+    Button popupButton;
+    private BaseSeletorPopupWindow popupWindow;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,6 +56,32 @@ public class InsuranceActvity extends BaseActvity {
 
             }
         });
+        recyclerItemSb.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                Log.e("CompoundButton:", "" + isChecked);
+                dateDisplay.setText("" + isChecked);
+            }
+        });
+
+        LinearLayout view= (LinearLayout) getLayoutInflater().inflate(R.layout.insurance_popup_view,null);
+        popupWindow= new BaseSeletorPopupWindow(this) {
+            @Override
+            protected void initViews(View contentView) {
+
+            }
+        };
+        popupWindow.setContentView(view);
+        popupButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+               popupWindow.showAsDropDown(popupButton,0,dip2px(8), Gravity.BOTTOM);
+            }
+        });
+    }
+    private int dip2px(float dpValue) {
+        final float scale = getResources().getDisplayMetrics().density;
+        return (int) (dpValue * scale + 0.5f);
     }
     @Override
     protected Dialog onCreateDialog(int id) {
@@ -55,7 +93,7 @@ public class InsuranceActvity extends BaseActvity {
     }
 
     public void display() {
-        dateDisplay.setText(new StringBuffer().append("-").append(mYear).append(mMonth + 1).append("-").append(mDay).append(" "));
+        dateDisplay.setText(new StringBuffer().append(mYear).append("-").append(mMonth + 1).append("-").append(mDay).append(" "));
     }
 
     private DatePickerDialog.OnDateSetListener mdateListener = new DatePickerDialog.OnDateSetListener() {

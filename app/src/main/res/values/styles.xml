@@ -37,4 +37,17 @@
         <item name="android:background">#FFFFFF</item>
     </style>
 
+    <style name="SwitchButtonMD">
+        <item name="kswThumbDrawable">@drawable/ios_thumb_selector</item>
+        <item name="kswBackColor">@color/ksw_md_back_color</item>
+        <item name="kswBackMeasureRatio">1.45</item>
+        <item name="kswThumbMarginLeft">-8dp</item>
+        <item name="kswThumbMarginTop">-2.5dp</item>
+        <item name="kswThumbMarginRight">-8dp</item>
+        <item name="kswThumbMarginBottom">-10dp</item>
+        <item name="kswThumbWidth">51dp</item>
+        <item name="kswThumbHeight">50dp</item>
+        <item name="kswBackDrawable">@drawable/ios_back_drawable</item>
+
+    </style>
 </resources>
