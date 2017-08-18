@@ -1,1 +1,1 @@
-include ':app', ':UpdateAppUtils', ':mspay', ':msreactive', ':msutils', ':mslogs'
+include ':app', ':UpdateAppUtils', ':mspay', ':msreactive', ':msutils', ':mslogs', ':zxingdemo', ':zxing', ':qrcodecore', ':zbardemo', ':zbar'

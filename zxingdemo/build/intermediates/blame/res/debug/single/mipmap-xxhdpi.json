@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\custom_grid_scan_line.png",
+        "source": "D:\\mygithub\\QXMSSample2\\zxingdemo\\src\\main\\res\\mipmap-xxhdpi\\custom_grid_scan_line.png"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\logo.png",
+        "source": "D:\\mygithub\\QXMSSample2\\zxingdemo\\src\\main\\res\\mipmap-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\test_isbn.png",
+        "source": "D:\\mygithub\\QXMSSample2\\zxingdemo\\src\\main\\res\\mipmap-xxhdpi\\test_isbn.png"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\holder.png",
+        "source": "D:\\mygithub\\QXMSSample2\\zxingdemo\\src\\main\\res\\mipmap-xxhdpi\\holder.png"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\custom_scan_line.png",
+        "source": "D:\\mygithub\\QXMSSample2\\zxingdemo\\src\\main\\res\\mipmap-xxhdpi\\custom_scan_line.png"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "D:\\mygithub\\QXMSSample2\\zxingdemo\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    }
+]

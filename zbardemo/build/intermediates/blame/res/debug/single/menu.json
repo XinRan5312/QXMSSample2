@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\menu\\bga_pp_menu_photo_picker.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\menu\\bga_pp_menu_photo_picker.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\menu\\bga_pp_menu_photo_preview.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\menu\\bga_pp_menu_photo_preview.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\menu\\bga_pp_menu_photo_picker_preview.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\menu\\bga_pp_menu_photo_picker_preview.xml"
+    }
+]

@@ -15,6 +15,11 @@
             <option value="$PROJECT_DIR$/mspay" />
             <option value="$PROJECT_DIR$/msreactive" />
             <option value="$PROJECT_DIR$/msutils" />
+            <option value="$PROJECT_DIR$/qrcodecore" />
+            <option value="$PROJECT_DIR$/zbar" />
+            <option value="$PROJECT_DIR$/zbardemo" />
+            <option value="$PROJECT_DIR$/zxing" />
+            <option value="$PROJECT_DIR$/zxingdemo" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

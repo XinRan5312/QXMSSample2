@@ -1,0 +1,242 @@
+[
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\bga_pp_dialog_loading.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\layout\\bga_pp_dialog_loading.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test_scan.xml",
+        "source": "D:\\mygithub\\QXMSSample2\\zxingdemo\\src\\main\\res\\layout\\activity_test_scan.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test_generate.xml",
+        "source": "D:\\mygithub\\QXMSSample2\\zxingdemo\\src\\main\\res\\layout\\activity_test_generate.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\bga_adapter_item_databinding_dummy.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\640248307ec79d4f31905fed125405a1db599f1d\\output\\res\\layout\\bga_adapter_item_databinding_dummy.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\view_control.xml",
+        "source": "D:\\mygithub\\QXMSSample2\\zxingdemo\\src\\main\\res\\layout\\view_control.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\bga_pp_al_photo_picker_preview.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\layout\\bga_pp_al_photo_picker_preview.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\bga_pp_toolbar_viewstub.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\layout\\bga_pp_toolbar_viewstub.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\bga_pp_item_photo_folder.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\layout\\bga_pp_item_photo_folder.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar.xml",
+        "source": "D:\\mygithub\\QXMSSample2\\zxingdemo\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\bga_pp_pw_photo_folder.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\layout\\bga_pp_pw_photo_folder.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\bga_pp_al_photo_preview.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\layout\\bga_pp_al_photo_preview.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\bga_pp_activity_photo_preview.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\layout\\bga_pp_activity_photo_preview.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\bga_pp_activity_photo_picker.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\layout\\bga_pp_activity_photo_picker.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\bga_pp_item_photo_camera.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\layout\\bga_pp_item_photo_camera.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\bga_pp_item_photo_picker.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\layout\\bga_pp_item_photo_picker.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\bga_pp_item_nine_photo.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\layout\\bga_pp_item_nine_photo.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\bga_pp_al_photo_picker.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\layout\\bga_pp_al_photo_picker.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\mygithub\\QXMSSample2\\zxingdemo\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\bga_adapter_empty_view.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\640248307ec79d4f31905fed125405a1db599f1d\\output\\res\\layout\\bga_adapter_empty_view.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\bga_pp_activity_photo_picker_preview.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\layout\\bga_pp_activity_photo_picker_preview.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    }
+]

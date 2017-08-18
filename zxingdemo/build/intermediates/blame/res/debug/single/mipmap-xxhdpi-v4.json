@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\bga_pp_ic_plus.png",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\mipmap-xxhdpi-v4\\bga_pp_ic_plus.png"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\qrcode_default_scan_line.png",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\8fff659fa78acd5349d8c4fb807b6f7204250121\\output\\res\\mipmap-xxhdpi-v4\\qrcode_default_scan_line.png"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\bga_pp_ic_cb_checked.png",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\mipmap-xxhdpi-v4\\bga_pp_ic_cb_checked.png"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\bga_pp_ic_cb_normal.png",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\mipmap-xxhdpi-v4\\bga_pp_ic_cb_normal.png"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\bga_pp_ic_arrow_down.png",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\mipmap-xxhdpi-v4\\bga_pp_ic_arrow_down.png"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\bga_pp_ic_holder_light.png",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\mipmap-xxhdpi-v4\\bga_pp_ic_holder_light.png"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\bga_pp_ic_delete.png",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\mipmap-xxhdpi-v4\\bga_pp_ic_delete.png"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\bga_pp_ic_download.png",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\mipmap-xxhdpi-v4\\bga_pp_ic_download.png"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\bga_pp_ic_holder_dark.png",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\mipmap-xxhdpi-v4\\bga_pp_ic_holder_dark.png"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\bga_pp_ic_gallery_camera.png",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\mipmap-xxhdpi-v4\\bga_pp_ic_gallery_camera.png"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\qrcode_default_grid_scan_line.png",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\8fff659fa78acd5349d8c4fb807b6f7204250121\\output\\res\\mipmap-xxhdpi-v4\\qrcode_default_grid_scan_line.png"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\custom_scan_line.png",
+        "source": "D:\\mygithub\\QXMSSample2\\zbardemo\\src\\main\\res\\mipmap-xxhdpi\\custom_scan_line.png"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\custom_grid_scan_line.png",
+        "source": "D:\\mygithub\\QXMSSample2\\zbardemo\\src\\main\\res\\mipmap-xxhdpi\\custom_grid_scan_line.png"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "D:\\mygithub\\QXMSSample2\\zbardemo\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    }
+]

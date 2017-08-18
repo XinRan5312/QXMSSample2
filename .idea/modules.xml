@@ -9,6 +9,11 @@
       <module fileurl="file://$PROJECT_DIR$/mspay/mspay.iml" filepath="$PROJECT_DIR$/mspay/mspay.iml" />
       <module fileurl="file://$PROJECT_DIR$/msreactive/msreactive.iml" filepath="$PROJECT_DIR$/msreactive/msreactive.iml" />
       <module fileurl="file://$PROJECT_DIR$/msutils/msutils.iml" filepath="$PROJECT_DIR$/msutils/msutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qrcodecore/qrcodecore.iml" filepath="$PROJECT_DIR$/qrcodecore/qrcodecore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zbar/zbar.iml" filepath="$PROJECT_DIR$/zbar/zbar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zbardemo/zbardemo.iml" filepath="$PROJECT_DIR$/zbardemo/zbardemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxing/zxing.iml" filepath="$PROJECT_DIR$/zxing/zxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxingdemo/zxingdemo.iml" filepath="$PROJECT_DIR$/zxingdemo/zxingdemo.iml" />
     </modules>
   </component>
 </project>
