@@ -30,8 +30,6 @@ public class MainActivity extends BaseActvity {
     int max = 5000;
     @BindView(R.id.triangle)
     TriangleView triangle;
-//    @BindView(R.id.scrollSelectorView)
-//    ReScrollSelectorView scrollSelectorView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
