@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/UpdateAppUtils/UpdateAppUtils.iml" filepath="$PROJECT_DIR$/UpdateAppUtils/UpdateAppUtils.iml" />
       <module fileurl="file://$PROJECT_DIR$/agenwebsample/agenwebsample.iml" filepath="$PROJECT_DIR$/agenwebsample/agenwebsample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraryViews/libraryViews.iml" filepath="$PROJECT_DIR$/libraryViews/libraryViews.iml" />
       <module fileurl="file://$PROJECT_DIR$/mslogs/mslogs.iml" filepath="$PROJECT_DIR$/mslogs/mslogs.iml" />
       <module fileurl="file://$PROJECT_DIR$/mspay/mspay.iml" filepath="$PROJECT_DIR$/mspay/mspay.iml" />
       <module fileurl="file://$PROJECT_DIR$/msreactive/msreactive.iml" filepath="$PROJECT_DIR$/msreactive/msreactive.iml" />
