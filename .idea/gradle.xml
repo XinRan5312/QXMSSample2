@@ -9,7 +9,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AgentWeblibrary" />
             <option value="$PROJECT_DIR$/UpdateAppUtils" />
+            <option value="$PROJECT_DIR$/agenwebsample" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/mslogs" />
             <option value="$PROJECT_DIR$/mspay" />

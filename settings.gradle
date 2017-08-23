@@ -1,1 +1,1 @@
-include ':app', ':UpdateAppUtils', ':mspay', ':msreactive', ':msutils', ':mslogs', ':zxingdemo', ':zxing', ':qrcodecore', ':zbardemo', ':zbar'
+include ':app', ':UpdateAppUtils', ':mspay', ':msreactive', ':msutils', ':mslogs', ':zxingdemo', ':zxing', ':qrcodecore', ':zbardemo', ':zbar', ':AgentWeblibrary', ':agenwebsample'
