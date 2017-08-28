@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.Rect;
 import android.graphics.RectF;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
@@ -77,15 +78,41 @@ public class DialView extends View {
                 if(mOnColorChangeLisner!=null){
                     mOnColorChangeLisner.onColorChange(red,green);
                 }
-                drawText(canvas,hasDrawAgnle,red,green);
+
             } else {
                 canvas.drawLine(0, mRaidus, 0, mRaidus - mScaleLineLen, mLinePaint);
             }
         }
         canvas.restore();//回复标坐标系以前的模样  介绍变换坐标系
+        drawText(canvas);
     }
 
-    private void drawText(Canvas canvas, int hasDrawAgnle, int red, int green) {
+    private void drawText(Canvas canvas) {
+        int circleRaidus=mRaidus-mScaleLineLen;
+        Paint cirlePaint=new Paint();
+        cirlePaint.setColor(Color.GREEN);
+        cirlePaint.setAntiAlias(true);
+        cirlePaint.setStrokeWidth(2f);
+        cirlePaint.setStyle(Paint.Style.FILL);
+        canvas.drawCircle(mRaidus,mRaidus,circleRaidus,cirlePaint);
+
+
+        Paint textPaint=new Paint();
+        textPaint.setTextAlign(Paint.Align.CENTER);
+        textPaint.setStrokeWidth(2f);
+        textPaint.setAntiAlias(true);
+        textPaint.setColor(Color.WHITE);
+        textPaint.setTextSize(circleRaidus/2);
+        String text=""+mRealAgnle;
+        Rect rect=new Rect();
+        textPaint.getTextBounds(text,0,text.length(),rect);
+        canvas.drawText(text,mRaidus,mRaidus+rect.height()/2,textPaint);
+
+        // 画固定值分
+        textPaint.setTextSize(circleRaidus/6);
+        canvas.drawText("分", mRaidus+rect.width(),mRaidus-rect.height()/4, textPaint);
+
+
 
     }
 
