@@ -31,12 +31,14 @@ public class DialActivity extends BaseActvity {
     @Override
     protected void onResume() {
         super.onResume();
-        dialView.setOnColorChangeLisner(new DialView.OnColorChangeLisner() {
+        dialView.setOnAngleColorListener(new DialView.OnAngleColorListener() {
             @Override
-            public void onColorChange(int red, int green) {
-                rootViewContainer.setBackgroundColor(Color.argb(125,red,green,0));
+            public void onAngleColorListener(int red, int green) {
+                Color color=new Color();
+                int c=color.argb(150, red, green, 0);
+                rootViewContainer.setBackgroundColor(c);
             }
         });
-        dialView.dynamicDraw(200);
+        dialView.change(200);
     }
 }

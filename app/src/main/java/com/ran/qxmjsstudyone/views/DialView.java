@@ -5,13 +5,9 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
-import android.graphics.Rect;
 import android.graphics.RectF;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
-
-import com.ran.qxmjsstudyone.utils.UIUtils;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -21,106 +17,199 @@ import java.util.TimerTask;
  */
 
 public class DialView extends View {
-    private Paint mLinePaint;
-    private int mStartAgnle;
-    private int mSwipeAgnle;
-    private int mSpaceAgnle;
-    private int mRaidus;
-    private int mRealAgnle;
-    private Paint mRealPaint;
-    private int mScaleLineLen;
-    private OnColorChangeLisner mOnColorChangeLisner;
+    // 画圆弧的画笔
+    private Paint paint;
+    // 正方形的宽高
+    private int len;
+    // 圆弧的半径
+    private float radius;
+    // 矩形
+    private RectF oval;
+    // 圆弧的起始角度
+    private float startAngle = 120;
+    // 圆弧的经过总范围角度角度
+    private float sweepAngle = 300;
+
+    // 刻度经过角度范围
+    private float targetAngle = 300;
+
+    float grade = sweepAngle / 100;
+    private Paint linePaint;
+    // 前进或者后退的状态，1代表前进，2代表后退。初始为后退状态。
+    int state = 2;
+    // 每次后退时的值，实现越来越快的效果
+    private int[] back = {2, 2, 4, 4, 6, 6, 8, 8, 10};
+    // 每次前进时的值，实现越来越慢的效果
+    private int[] go = {10, 10, 8, 8, 6, 6, 4, 4, 2};
+    // 前进的下标
+    private int go_index = 0;
+    // 后退的下标
+    private int back_index = 0;
+    private int score;
     private int color;
 
-    public void setOnColorChangeLisner(OnColorChangeLisner onColorChangeLisner) {
-        this.mOnColorChangeLisner = onColorChangeLisner;
-    }
+    private boolean isRunning;
+    // 绘制文字
+    Paint textPaint;
+    // 存放第一条水波Y值
+    private float[] firstWaterLine;
+    // 第二条
+    private float[] secondWaterLine;
+    // 画水球的画笔
+    private Paint waterPaint;
+    // 影响三角函数的初相
+    private float move;
+    // 剪切圆的半径
+    private int clipRadius;
+    // 水球的增长值
+    int up = 0;
+    // 监听角度变化对应的颜色变化
+    private OnAngleColorListener onAngleColorListener;
 
-    public DialView(Context context) {
-        super(context);
-        init();
-    }
-
-    public DialView(Context context, @Nullable AttributeSet attrs) {
+    public DialView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        init();
-    }
+        paint = new Paint();
+        paint.setColor(Color.WHITE);
+        paint.setAntiAlias(true);
+        paint.setStyle(Paint.Style.STROKE);
 
-    public DialView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
-        super(context, attrs, defStyleAttr);
-        init();
+        textPaint = new Paint();
+        textPaint.setARGB(255, 255, 255, 255);
+        textPaint.setAntiAlias(true);
+
+        waterPaint = new Paint();
+        waterPaint.setAntiAlias(true);
+
+        moveWaterLine();
     }
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        // TODO Auto-generated method stub
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-        mRaidus = Math.min(MeasureSpec.getSize(widthMeasureSpec), MeasureSpec.getSize(heightMeasureSpec)) / 2;
-        setMeasuredDimension(2 * mRaidus, 2 * mRaidus);
-        firstWaterLine = new float[mRaidus*2];
-        secondWaterLine = new float[mRaidus*2];
 
+        // 通过测量规则获得宽和高
+        int width = MeasureSpec.getSize(widthMeasureSpec);
+        int height = MeasureSpec.getSize(heightMeasureSpec);
+        // 取出最小值
+        len = Math.min(width, height);
+        oval = new RectF(0, 0, len, len);
+        radius = len / 2;
+        clipRadius = (len / 2) - 45;
+        firstWaterLine = new float[len];
+        secondWaterLine = new float[len];
+        setMeasuredDimension(len, len);
     }
 
     @Override
     protected void onDraw(Canvas canvas) {
-        super.onDraw(canvas);
-        canvas.drawArc(new RectF(0, 0, 2 * mRaidus, 2 * mRaidus), mStartAgnle, mSwipeAgnle, false, mLinePaint);
-        //开始操作坐标系 为了准确的画好刻度线
-        canvas.save();
-
-        canvas.translate(mRaidus, mRaidus);//本View从现在开始坐标原点从（0,0）到(mRaidus,mRaidus)
-
-        canvas.rotate(30);//坐标系在原点在(mRaidus,mRaidus)基础上X和Y轴旋转30度，正好刻度线从弧度的开始开始画
-        canvas.drawLine(0, mRaidus, 0, mRaidus - mScaleLineLen, mLinePaint);
-        for (int hasDrawAgnle = 0; hasDrawAgnle < mSwipeAgnle; hasDrawAgnle += mSpaceAgnle) {
-            canvas.rotate(mSpaceAgnle);//在圆弧上画刻度线
-            if (hasDrawAgnle < mRealAgnle) {
-                int red=255 - 255 * hasDrawAgnle / mRealAgnle;
-                int green=255 * hasDrawAgnle / mRealAgnle;
-                mRealPaint.setARGB(255, red,green, 0);
-                canvas.drawLine(0, mRaidus, 0, mRaidus - mScaleLineLen, mRealPaint);
-                color = mRealPaint.getColor();
-                if(mOnColorChangeLisner!=null){
-                    mOnColorChangeLisner.onColorChange(red,green);
-                }
-
-            } else {
-                canvas.drawLine(0, mRaidus, 0, mRaidus - mScaleLineLen, mLinePaint);
-            }
-        }
-        canvas.restore();//回复标坐标系以前的模样  介绍变换坐标系
+        // 绘制一个圆弧，如果懂得坐标系的旋转，可以不写。
+        // canvas.drawArc(oval, startAngle, sweepAngle, false, paint);
+        // 画布，圆心左边，半径，起始角度，经过角度,
+        // 说白了就是canvas没有提供画特殊图形的方法，就需要我们自己去实现这种功能了
+        // 画刻度线
+        drawLine(canvas);
+        // 画刻度线内的内容
         drawText(canvas);
+
     }
 
+    /**
+     * 实现画刻度线内的内容
+     *
+     * @param canvas
+     */
     private void drawText(Canvas canvas) {
-        int circleRaidus=mRaidus-mScaleLineLen;
-        Paint cirlePaint=new Paint();
-        cirlePaint.setColor(Color.BLUE);
-        cirlePaint.setAntiAlias(true);
-        cirlePaint.setStrokeWidth(2f);
-        cirlePaint.setStyle(Paint.Style.FILL);
-
+        Paint cPaint = new Paint();
+        // cPaint.setARGB(50, 236, 241, 243);
+        cPaint.setAlpha(50);
+        cPaint.setARGB(50, 236, 241, 243);
+        // 画圆形背景
+        RectF smalloval = new RectF(40, 40, radius * 2 - 40, radius * 2 - 40);
+        // 画水波
         drawWaterView(canvas);
-
-        canvas.drawCircle(mRaidus,mRaidus,circleRaidus,cirlePaint);
-
-        Paint textPaint=new Paint();
+        canvas.drawArc(smalloval, 0, 360, true, cPaint);
+        // 在小圆圈的外围画一个白色圈
+        // canvas.drawArc(smalloval, 0, 360, false, paint);
+        // 设置文本对齐方式，居中对齐
         textPaint.setTextAlign(Paint.Align.CENTER);
-        textPaint.setStrokeWidth(2f);
-        textPaint.setAntiAlias(true);
-        textPaint.setColor(Color.WHITE);
-        textPaint.setTextSize(circleRaidus/2);
-        String text=""+mRealAgnle;
-        Rect rect=new Rect();
-        textPaint.getTextBounds(text,0,text.length(),rect);
-        canvas.drawText(text,mRaidus,mRaidus+rect.height()/2,textPaint);
+        textPaint.setTextSize(clipRadius / 2);
+        // 画分数
+        canvas.drawText("" + score, radius, radius, textPaint);
+
+        textPaint.setTextSize(clipRadius / 6);
 
         // 画固定值分
-        textPaint.setTextSize(circleRaidus/6);
-        canvas.drawText("分", mRaidus+rect.width(),mRaidus-rect.height()/4, textPaint);
-
+        canvas.drawText("分", radius + clipRadius / 2, radius - clipRadius / 4, textPaint);
+        textPaint.setTextSize(clipRadius / 6);
+        // 画固定值立即优化
+        canvas.drawText("点击优化", radius, radius + clipRadius / 2, textPaint);
 
     }
+
+
+    /**
+     * 实现画刻度线的功能
+     *
+     * @param canvas
+     */
+    private void drawLine(final Canvas canvas) {
+        // 保存之前的画布状态
+        canvas.save();
+        // 移动画布，实际上是改变坐标系的位置
+        canvas.translate(radius, radius);
+        // 旋转坐标系,需要确定旋转角度
+        canvas.rotate(30);
+        // 初始化画笔
+        linePaint = new Paint();
+        // 设置画笔的宽度（线的粗细）
+        linePaint.setStrokeWidth(2);
+        // 设置抗锯齿
+        linePaint.setAntiAlias(true);
+        // 累计叠加的角度
+        float hasDraw = 0;
+        for (int i = 0; i <= 100; i++) {//画100个刻度线
+
+            if (hasDraw <= targetAngle && targetAngle != 0) {// 如果累计画过的角度，小于当前有效刻度
+                // 计算累计划过的刻度百分比（画过的刻度比上中共进过的刻度）
+                double p = hasDraw / (double) sweepAngle;
+
+                int red = 255 - (int) (p * 255);
+                int green = (int) (p * 255);
+                color = linePaint.getColor();
+                if (onAngleColorListener != null) {
+                    onAngleColorListener.onAngleColorListener(red, green);
+                }
+                linePaint.setARGB(255, red, green, 50);
+                canvas.drawLine(0, radius, 0, radius - 20, linePaint);
+                // 画过的角度进行叠加
+                hasDraw += grade;
+            } else {
+                linePaint.setColor(Color.WHITE);
+                canvas.drawLine(0, radius, 0, radius - 20, linePaint);
+            }
+
+            canvas.rotate(grade);
+        }
+        // 恢复画布状态。
+        canvas.restore();
+    }
+
+    public void moveWaterLine() {
+        final Timer timer = new Timer();
+        timer.schedule(new TimerTask() {
+
+            @Override
+            public void run() {
+                move += 1;
+                if (move == 100) {
+                    timer.cancel();
+                }
+                postInvalidate();
+            }
+        }, 500, 200);
+    }
+
     /**
      * 画水球的功能
      *
@@ -129,7 +218,6 @@ public class DialView extends View {
     private void drawWaterView(Canvas canvas) {
         // y = Asin(wx+b)+h ，这个公式里：w影响周期，A影响振幅，h影响y位置，b为初相；
         // 将周期定为view总宽度
-        int len=mRaidus*2;
         float mCycleFactorW = (float) (2 * Math.PI / len);
 
         // 得到第一条波的y值
@@ -165,106 +253,77 @@ public class DialView extends View {
         }
         canvas.restore();
     }
-    // 存放第一条水波Y值
-    private float[] firstWaterLine;
-    // 第二条
-    private float[] secondWaterLine;
-    // 画水球的画笔
-    private Paint waterPaint;
-    // 影响三角函数的初相
-    private float move;
-    // 剪切圆的半径
-    private int clipRadius;
-    // 水球的增长值
-    int up = 0;
 
-    private boolean mIsDynamic = false;
-    private int mDynamicStatus = 1;
-    // 每次后退时的值，实现越来越快的效果
-    private int[] back = {2, 2, 4, 4, 6, 6, 8, 8, 10};
-    // 每次前进时的值，实现越来越慢的效果
-    private int[] go = {10, 10, 8, 8, 6, 6, 4, 4, 2};
-    // 前进的下标
-    private int go_index = 0;
-    // 后退的下标
-    private int back_index = 0;
-    public void dynamicDraw(final int angle) {
+    /**
+     * 设置动画效果，开启子线程定时绘制
+     *
+     * @param trueAngle
+     */
+    public void change(final float trueAngle) {
+        if (isRunning) {
+            return;
+        }
         final Timer timer = new Timer();
-        mRealAgnle = 0;
         timer.schedule(new TimerTask() {
+
             @Override
             public void run() {
-                if (mIsDynamic) {
-                    return;
-                }
-                if (mDynamicStatus == 1) {//前进
-                    mRealAgnle += go[go_index];
-                    go_index++;
-                    if(go_index==go.length){
-                        go_index--;
-                    }
-                    if (mRealAgnle >= angle) {
-                        mRealAgnle = angle;
-                        mDynamicStatus=0;
-                    }
-                }else if(mDynamicStatus==0){//后腿
-                    mRealAgnle -= back[back_index];
-                    back_index++;
-                    if(back_index==back.length){
-                        back_index--;
-                    }
-                    if (mRealAgnle <= 0) {
-                        mRealAgnle = 0;
-                        mDynamicStatus=1;
-                        mIsDynamic=true;//退出动画
-                        timer.cancel();
-                    }
-                }
-                postInvalidate();
+                switch (state) {
+                    case 1:
+                        // 开始增加
+                        targetAngle += go[go_index];
+                        go_index++;
+                        if (go_index == go.length) {// 到最后的元素时，下标一直为最后的
+                            go_index--;
+                        }
+                        if (targetAngle >= trueAngle) {// 如果画过刻度大于等于真实角度
+                            // 画过刻度=真实角度
+                            targetAngle = trueAngle;
+                            // 状态改为2
+                            state = 2;
+                            isRunning = false;
+                            timer.cancel();
+                        }
+                        break;
+                    case 2:
+                        isRunning = true;
+                        targetAngle -= back[back_index];
+                        back_index++;
+                        if (back_index == back.length) {
+                            back_index--;
+                        }
 
+                        if (targetAngle <= 0) {
+                            targetAngle = 0;
+                            state = 1;
+                        }
+                        break;
+                    default:
+                        break;
+                }
+                // 计算当前比例应该的多少分
+                score = (int) (targetAngle / 300 * 100);
+                // 计算出当前所占比例，应该增长多少
+                up = (int) (targetAngle / 360 * clipRadius * 2);
+
+                postInvalidate();
             }
         }, 500, 30);
+
     }
 
-    public interface OnColorChangeLisner{
-        void onColorChange(int red,int green);
+    public void setOnAngleColorListener(
+            OnAngleColorListener onAngleColorListener) {
+        this.onAngleColorListener = onAngleColorListener;
     }
-    public void moveWaterLine() {
-        final Timer timer = new Timer();
-        timer.schedule(new TimerTask() {
 
-            @Override
-            public void run() {
-                move += 1;
-                if (move == 100) {
-                    timer.cancel();
-                }
-                postInvalidate();
-            }
-        }, 500, 200);
-    }
-    private void init() {
-        mStartAgnle = 120;
-        mSwipeAgnle = 300;
-        mSpaceAgnle = 3;
-        mRealAgnle = 200;
-        clipRadius = mRaidus - 45;
-
-        mScaleLineLen=UIUtils.dip2px(getContext(),10);
-        mLinePaint = new Paint();
-        mLinePaint.setColor(Color.WHITE);
-        mLinePaint.setAntiAlias(true);
-        mLinePaint.setStrokeWidth(3f);
-        mLinePaint.setStyle(Paint.Style.STROKE);
-
-        mRealPaint = new Paint();
-        mRealPaint.setColor(Color.GREEN);
-        mRealPaint.setAntiAlias(true);
-        mRealPaint.setStrokeWidth(3f);
-        mRealPaint.setStyle(Paint.Style.STROKE);
-        waterPaint = new Paint();
-        waterPaint.setAntiAlias(true);
-        moveWaterLine();
+    /**
+     * 监听角度和颜色变化的接口
+     *
+     * @author Administrator
+     */
+    public interface OnAngleColorListener {
+        void onAngleColorListener(int red, int green);
     }
 
 }
