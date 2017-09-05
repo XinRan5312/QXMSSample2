@@ -13,6 +13,13 @@
         android:layout_height="500dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="100dp"/>
+    <com.ran.qxmjsstudyone.views.InsuranceInvestProgressView
+        android:id="@+id/insurance_view"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="50dp"/>
 
 
 </LinearLayout>

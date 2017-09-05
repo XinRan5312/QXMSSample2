@@ -50,4 +50,10 @@
         <item name="kswBackDrawable">@drawable/ios_back_drawable</item>
 
     </style>
+
+    <!-- popupwindow 动画 -->
+    <style name="Popup_Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_anim_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_anim_exit</item>
+    </style>
 </resources>

@@ -8,6 +8,7 @@ import android.graphics.Path;
 import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
+import android.widget.ImageView;
 
 import java.util.Timer;
 import java.util.TimerTask;
