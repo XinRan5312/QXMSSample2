@@ -1,2 +1,3 @@
 include ':app', ':UpdateAppUtils', ':mspay', ':msreactive', ':msutils', ':mslogs', ':zxingdemo', ':cityselector',
-        ':zxing', ':qrcodecore', ':zbardemo', ':zbar', ':AgentWeblibrary', ':agenwebsample', ':libraryViews'
+        ':zxing', ':qrcodecore', ':zbardemo', ':zbar', ':AgentWeblibrary', ':agenwebsample', ':libraryViews',
+        ':superTextViewDemo', ':library', ':superTextViewLibrary'

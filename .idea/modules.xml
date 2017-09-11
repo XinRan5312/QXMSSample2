@@ -8,12 +8,15 @@
       <module fileurl="file://$PROJECT_DIR$/agenwebsample/agenwebsample.iml" filepath="$PROJECT_DIR$/agenwebsample/agenwebsample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/cityselector/cityselector.iml" filepath="$PROJECT_DIR$/cityselector/cityselector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraryViews/libraryViews.iml" filepath="$PROJECT_DIR$/libraryViews/libraryViews.iml" />
       <module fileurl="file://$PROJECT_DIR$/mslogs/mslogs.iml" filepath="$PROJECT_DIR$/mslogs/mslogs.iml" />
       <module fileurl="file://$PROJECT_DIR$/mspay/mspay.iml" filepath="$PROJECT_DIR$/mspay/mspay.iml" />
       <module fileurl="file://$PROJECT_DIR$/msreactive/msreactive.iml" filepath="$PROJECT_DIR$/msreactive/msreactive.iml" />
       <module fileurl="file://$PROJECT_DIR$/msutils/msutils.iml" filepath="$PROJECT_DIR$/msutils/msutils.iml" />
       <module fileurl="file://$PROJECT_DIR$/qrcodecore/qrcodecore.iml" filepath="$PROJECT_DIR$/qrcodecore/qrcodecore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/superTextViewDemo/superTextViewDemo.iml" filepath="$PROJECT_DIR$/superTextViewDemo/superTextViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/superTextViewLibrary/superTextViewLibrary.iml" filepath="$PROJECT_DIR$/superTextViewLibrary/superTextViewLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/zbar/zbar.iml" filepath="$PROJECT_DIR$/zbar/zbar.iml" />
       <module fileurl="file://$PROJECT_DIR$/zbardemo/zbardemo.iml" filepath="$PROJECT_DIR$/zbardemo/zbardemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/zxing/zxing.iml" filepath="$PROJECT_DIR$/zxing/zxing.iml" />
