@@ -6,6 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+/**
+ * 感谢这个大神的分享
+ * https://github.com/lygttpod/SuperTextView
+ */
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
 
