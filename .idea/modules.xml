@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/agenwebsample/agenwebsample.iml" filepath="$PROJECT_DIR$/agenwebsample/agenwebsample.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/cityselector/cityselector.iml" filepath="$PROJECT_DIR$/cityselector/cityselector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firsth5/firsth5.iml" filepath="$PROJECT_DIR$/firsth5/firsth5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/keepapplive/keepapplive.iml" filepath="$PROJECT_DIR$/keepapplive/keepapplive.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraryViews/libraryViews.iml" filepath="$PROJECT_DIR$/libraryViews/libraryViews.iml" />
       <module fileurl="file://$PROJECT_DIR$/mslogs/mslogs.iml" filepath="$PROJECT_DIR$/mslogs/mslogs.iml" />

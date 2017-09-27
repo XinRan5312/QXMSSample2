@@ -1,3 +1,3 @@
-include ':app', ':UpdateAppUtils', ':mspay', ':msreactive', ':msutils', ':mslogs', ':zxingdemo', ':cityselector',
+include ':app', ':UpdateAppUtils', ':mspay', ':msreactive', ':msutils', ':mslogs', ':zxingdemo', ':cityselector', ':firsth5', ':keepapplive',
         ':zxing', ':qrcodecore', ':zbardemo', ':zbar', ':AgentWeblibrary', ':agenwebsample', ':libraryViews',
         ':superTextViewDemo', ':library', ':superTextViewLibrary'
