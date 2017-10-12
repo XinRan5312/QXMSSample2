@@ -1,26 +1,50 @@
 [
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout-v11\\notification_template_big_media.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout-v11\\notification_template_big_media.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zbardemo/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zbardemo/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/layout-v11/notification_template_big_media_custom.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zbardemo/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/layout-v11/notification_media_cancel_action.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout-v11\\notification_media_action.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zbardemo/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/layout-v11/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zbardemo/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zbardemo/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/layout-v11/notification_template_big_media.xml"
     }
 ]

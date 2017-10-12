@@ -1,186 +1,370 @@
 [
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\notification_icon_background.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_seekbar_track_material.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\bga_adapter_divider_shape.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\640248307ec79d4f31905fed125405a1db599f1d\\output\\res\\drawable\\bga_adapter_divider_shape.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\bga_pp_selector_btn_confirm.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\drawable\\bga_pp_selector_btn_confirm.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\bga_pp_selector_btn_confirm.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\drawable\\bga_pp_selector_btn_confirm.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_textfield_search_material.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\notification_bg_low.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_edit_text_material.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\bga_pp_selector_item_folder.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\drawable\\bga_pp_selector_item_folder.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/bga_pp_shape_photo_folder_pw_bg.xml",
+        "source": "/Users/xinran/.android/build-cache/847867d9373f381a2606f98c7d313ede8d24a27c/output/res/drawable/bga_pp_shape_photo_folder_pw_bg.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\bga_adapter_white_gray.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\640248307ec79d4f31905fed125405a1db599f1d\\output\\res\\drawable\\bga_adapter_white_gray.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\bga_pp_selector_item_folder.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\drawable\\bga_pp_selector_item_folder.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/bga_adapter_white_gray.xml",
+        "source": "/Users/xinran/.android/build-cache/a2ff51bcf51e159a6b17ddb1e33fc886f37fd5e9/output/res/drawable/bga_adapter_white_gray.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\bga_pp_shape_photo_folder_pw_bg.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\drawable\\bga_pp_shape_photo_folder_pw_bg.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\bga_pp_shape_dialog_bg.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\drawable\\bga_pp_shape_dialog_bg.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/bga_pp_selector_btn_confirm.xml",
+        "source": "/Users/xinran/.android/build-cache/847867d9373f381a2606f98c7d313ede8d24a27c/output/res/drawable/bga_pp_selector_btn_confirm.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_vector_test.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\bga_pp_rotate_progress_bar.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\drawable\\bga_pp_rotate_progress_bar.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\bga_pp_shape_photo_folder_pw_bg.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\drawable\\bga_pp_shape_photo_folder_pw_bg.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/bga_pp_selector_item_folder.xml",
+        "source": "/Users/xinran/.android/build-cache/847867d9373f381a2606f98c7d313ede8d24a27c/output/res/drawable/bga_pp_selector_item_folder.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_dialog_material_background.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/selector_btn_orange.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/src/main/res/drawable/selector_btn_orange.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/notification_icon_background.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_btn_colored_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_ratingbar_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\notification_bg.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_tab_indicator_material.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_vector_test.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/bga_adapter_divider_shape.xml",
+        "source": "/Users/xinran/.android/build-cache/a2ff51bcf51e159a6b17ddb1e33fc886f37fd5e9/output/res/drawable/bga_adapter_divider_shape.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_orange.xml",
-        "source": "D:\\mygithub\\QXMSSample2\\zxingdemo\\src\\main\\res\\drawable\\selector_btn_orange.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_btn_radio_material.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_orange.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\src\\main\\res\\drawable\\selector_btn_orange.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\bga_adapter_divider_shape.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\640248307ec79d4f31905fed125405a1db599f1d\\output\\res\\drawable\\bga_adapter_divider_shape.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/bga_pp_shape_dialog_bg.xml",
+        "source": "/Users/xinran/.android/build-cache/847867d9373f381a2606f98c7d313ede8d24a27c/output/res/drawable/bga_pp_shape_dialog_bg.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\bga_adapter_white_gray.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\640248307ec79d4f31905fed125405a1db599f1d\\output\\res\\drawable\\bga_adapter_white_gray.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\bga_pp_shape_dialog_bg.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\drawable\\bga_pp_shape_dialog_bg.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\bga_pp_rotate_progress_bar.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\drawable\\bga_pp_rotate_progress_bar.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/bga_pp_rotate_progress_bar.xml",
+        "source": "/Users/xinran/.android/build-cache/847867d9373f381a2606f98c7d313ede8d24a27c/output/res/drawable/bga_pp_rotate_progress_bar.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable/abc_seekbar_thumb_material.xml"
     }
 ]

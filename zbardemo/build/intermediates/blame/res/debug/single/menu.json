@@ -1,14 +1,26 @@
 [
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\menu\\bga_pp_menu_photo_picker.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\menu\\bga_pp_menu_photo_picker.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zbardemo/build/intermediates/res/merged/debug/menu/bga_pp_menu_photo_picker_preview.xml",
+        "source": "/Users/xinran/.android/build-cache/847867d9373f381a2606f98c7d313ede8d24a27c/output/res/menu/bga_pp_menu_photo_picker_preview.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\menu\\bga_pp_menu_photo_preview.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\menu\\bga_pp_menu_photo_preview.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\menu\\bga_pp_menu_photo_picker.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\menu\\bga_pp_menu_photo_picker.xml"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\menu\\bga_pp_menu_photo_picker_preview.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\menu\\bga_pp_menu_photo_picker_preview.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zbardemo/build/intermediates/res/merged/debug/menu/bga_pp_menu_photo_preview.xml",
+        "source": "/Users/xinran/.android/build-cache/847867d9373f381a2606f98c7d313ede8d24a27c/output/res/menu/bga_pp_menu_photo_preview.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\menu\\bga_pp_menu_photo_preview.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\menu\\bga_pp_menu_photo_preview.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zbardemo/build/intermediates/res/merged/debug/menu/bga_pp_menu_photo_picker.xml",
+        "source": "/Users/xinran/.android/build-cache/847867d9373f381a2606f98c7d313ede8d24a27c/output/res/menu/bga_pp_menu_photo_picker.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\menu\\bga_pp_menu_photo_picker_preview.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\fda22912dcd0cbd71d1e92e8140085e6fec7bbe7\\output\\res\\menu\\bga_pp_menu_photo_picker_preview.xml"
     }
 ]

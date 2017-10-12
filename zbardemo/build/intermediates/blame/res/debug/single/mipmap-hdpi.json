@@ -1,6 +1,10 @@
 [
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
-        "source": "D:\\mygithub\\QXMSSample2\\zbardemo\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zbardemo\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zbardemo\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zbardemo/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/zbardemo/src/main/res/mipmap-hdpi/ic_launcher.png"
     }
 ]
