@@ -45,9 +45,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             blackIntent.setAction(BLACK_WAKE_ACTION);
             sendBroadcast(blackIntent);
 
-            /*AlarmManager alarmManager = (AlarmManager) getSystemService(ALARM_SERVICE);
-            PendingIntent operation = PendingIntent.getBroadcast(this, 123, blackIntent, PendingIntent.FLAG_UPDATE_CURRENT);
-            alarmManager.set(AlarmManager.RTC, System.currentTimeMillis(), operation);*/
 
         } else if (viewId == R.id.btn_background_service) {//普通的后台进程
             Intent bgIntent = new Intent(getApplicationContext(), BackgroundService.class);

@@ -1,6 +1,10 @@
 [
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout-v16\\notification_template_custom_big.xml"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\layout-v16\\notification_template_custom_big.xml",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\layout-v16\\notification_template_custom_big.xml"
     }
 ]

@@ -1,14 +1,26 @@
 [
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17\\abc_spinner_mtrl_am_alpha.9.png",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable-ldrtl-mdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable-ldrtl-mdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/D:\\mygithub\\QXMSSample2\\zxingdemo\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/xinran/fanhai_space/github/QXMSSample2/E:\\developer\\android\\android-sdk-windows\\.android\\build-cache\\9b54640d61ec1b534dcd4fd54f477fc93e0bc81e\\output\\res\\drawable-ldrtl-mdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/xinran/fanhai_space/github/QXMSSample2/zxingdemo/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/xinran/.android/build-cache/84083d39c4659d4aa2c4562307b7e93ebbeb41a9/output/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     }
 ]
