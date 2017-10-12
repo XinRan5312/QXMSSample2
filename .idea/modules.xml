@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AgentWeblibrary/AgentWeblibrary.iml" filepath="$PROJECT_DIR$/AgentWeblibrary/AgentWeblibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomProgressWithNum/CustomProgressWithNum.iml" filepath="$PROJECT_DIR$/CustomProgressWithNum/CustomProgressWithNum.iml" />
       <module fileurl="file://$PROJECT_DIR$/QXMSSample2.iml" filepath="$PROJECT_DIR$/QXMSSample2.iml" />
       <module fileurl="file://$PROJECT_DIR$/UpdateAppUtils/UpdateAppUtils.iml" filepath="$PROJECT_DIR$/UpdateAppUtils/UpdateAppUtils.iml" />
       <module fileurl="file://$PROJECT_DIR$/agenwebsample/agenwebsample.iml" filepath="$PROJECT_DIR$/agenwebsample/agenwebsample.iml" />
