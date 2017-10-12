@@ -14,6 +14,7 @@ import android.graphics.drawable.shapes.PathShape;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.AttributeSet;
+import android.util.TypedValue;
 import android.view.View;
 
 import com.ran.qxmjsstudyone.R;
@@ -59,8 +60,7 @@ public class CicleTextView extends View {
     }
 
     private int dip2px(float dpValue) {
-        final float scale = getResources().getDisplayMetrics().density;
-        return (int) (dpValue * scale + 0.5f);
+        return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,dpValue,getResources().getDisplayMetrics());
     }
 
     private void drawBitMap(Canvas canvas) {

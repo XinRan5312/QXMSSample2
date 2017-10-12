@@ -43,4 +43,7 @@ dependencies {
     apt 'com.google.dagger:dagger-compiler:2.0.2'
     compile project(':UpdateAppUtils')
     compile project(':cityselector')
+
+    //一个阅读PDF的工具类
+    compile 'com.joanzapata.pdfview:android-pdfview:1.0.4@aar'
 }
