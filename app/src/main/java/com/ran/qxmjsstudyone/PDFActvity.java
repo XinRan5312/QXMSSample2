@@ -41,8 +41,8 @@ public class PDFActvity extends BaseActvity {
          2.onDraw is also optional, and allows you to draw something on a provided canvas, above the current page
          */
         pdfView.fromAsset("ui.pdf")//还有fromefile
-                .pages(5,3,0,1,2,4,0,0,0)
-                .defaultPage(0)
+                .pages(5,3,0,1,2,4,0,0,0)//第一个是原PDF的第5页
+                .defaultPage(2)//顺序设置好后 设置打开默认展示的页面
                 .swipeVertical(true)
                 .enableSwipe(true)
                 .onDraw(new OnDrawListener() {
