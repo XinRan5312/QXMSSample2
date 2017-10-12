@@ -18,9 +18,7 @@ import butterknife.ButterKnife;
 
 /**
  * Created by houqixin on 2017/10/12.
- * 本例主要是使用开源项目：https://github.com/JoanZapata/android-pdfview 需要下载后放到本地才能展示
- *
- * 注：其实我们也可以解析pdf然后直接用webView展示：解析工具https://github.com/JoanZapata/android-pdfview.git
+ * 本例主要是使用开源项目：https://github.com/JoanZapata/android-pdfview 需要下载后放到本地解析后才能展示
  */
 
 public class PDFActvity extends BaseActvity {
@@ -39,7 +37,7 @@ public class PDFActvity extends BaseActvity {
     protected void onResume() {
         super.onResume();
         /**
-         *1. pages is optional, it allows you to filter and order the pages of the PDF as you need
+         1. pages is optional, it allows you to filter and order the pages of the PDF as you need
          2.onDraw is also optional, and allows you to draw something on a provided canvas, above the current page
          */
         pdfView.fromAsset("ui.pdf")//还有fromefile
